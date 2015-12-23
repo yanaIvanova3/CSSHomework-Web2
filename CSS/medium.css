@@ -1,0 +1,15 @@
+body{
+	max-width: 800px;
+	background-color: blue;
+}
+#holder{
+	max-width: 800px;
+}
+#mainMovie{
+	width: 600px;
+	height: 338px;
+	background-image: url(..Images/mainMovie_medium.jpeg);
+}
+.img{
+	width: 40%;
+}

@@ -1,0 +1,401 @@
+body{
+	width: 100%;
+	background-color: black;
+}
+#holder{
+	width: 1200px;
+	margin: 0 auto;
+	font-family: 'Slabo 27px', serif;
+}
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	float: left;
+}
+#logo{
+	float: left;
+	margin-top: 8px;
+	margin-right: 450px;
+	margin-left: 50px;
+}
+#logo h1{
+	color: #fff;
+}
+#logo a{
+	text-decoration: none;
+}
+#nav{
+	float: left;
+}
+#nav ul li{
+	float: left;
+	color: #fff;
+	margin: 20px;
+	font-weight: 200;
+	list-style-type: none;
+}
+#nav ul li a{
+	text-decoration: none;
+	color: #CCC;
+}
+#nav ul li a:hover{
+	color: #FFF;
+}
+#menu{
+	width: 100%;
+	height: 100px;
+	background-color: #f73a4c;
+	float: left;
+}
+#menu ul{
+	margin-left: 5%;
+}
+#menu ul li{
+	float: left;
+	list-style-type: none;
+	margin: 25px 45px;
+	color: #ffffff;
+	font-weight: 900;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #DDD;
+}
+#menu ul li a:hover{
+	color: #FFF;
+}
+#mainMovie{
+	width: 1200px;
+	height: 675px;
+	background-image: url(../Images/slider.jpg);
+	text-align: center;
+	float: left;
+}
+#mainMovie a{
+	text-decoration: none;
+	color: #CCC;
+}
+#text{
+	text-align: center;
+	padding-top: 300px;
+	color: #CCC;
+}
+#text h1{
+	font-size: 45px;
+}
+#text p{
+	font-size: 30px;
+}
+#learn1{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	float: left;
+	margin-left: 37%;
+	margin-right: 2%;
+}
+.learn1{
+	margin-top: 15px;
+}
+.learn2{
+	margin-top: 15px;
+}
+#learn2{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	float: left;
+}
+
+#genre{
+	width: 100%;
+	height: 675px;
+	background-image: url(../Images/navPattern.jpg);
+	float: left;
+}
+#genreText{
+	color: #FFF;
+	padding: 50px;
+	text-align: center;
+	margin: 0px 50px 50px 50px;
+}
+#genreText p{
+	color: #CCC;
+}
+#genreNav{
+	color: #FFF;
+	font-size: 25px;
+	margin: 0px 150px 50px 150px;
+	color: #CCC;
+}
+input[type=checkbox]{
+	margin: 10px 20px 20px 70px;
+}
+#helper{
+	width: 250px;
+	height: 90px;
+	border: 1px solid #CCC;
+	border-radius: 30px;
+	margin-left: 40%
+}
+#genreSearch{
+	text-align: center;
+	padding-top: 25px;
+	font-weight: 300;
+}
+#genreSearch a{
+	text-decoration: none;
+	color: #CCC;
+	font-size: 30px;
+}
+#moreMovies{
+	width: 100%;
+	float: left;
+	background-color: #0f1418;
+	padding-bottom: 50px;
+}
+.moremovies{
+	width: 1000px;
+	margin: 150px 100px 50px 110px;
+
+}
+.movie{
+	float: left;
+	margin: 15px;
+	text-align: center;
+}
+#viewmore{
+	float: left;
+	width: 213px;
+	height: 80px;
+	border: 1px solid #CCC;
+	border-radius: 30px;
+	margin-left: 40%;
+}
+.viewmore{
+	margin: 30px 65px;
+}
+.viewmore a{
+	text-decoration: none;
+	color: #CCC;
+}
+.text{
+	color: #CCC;
+	font-size: 25px;
+}
+#testimonials{
+	width: 100%;
+	height: 675px;
+	background-image: url(../Images/redPattern.jpg);
+	float: left;
+}
+#testImg {
+	width: 100%;
+	margin: 5% 39%;
+}
+#testImg img{
+	border-radius: 50%;
+
+}
+#testText{
+	width: 80%;
+	text-align: center;
+	margin: 5% 10%;
+}
+#testText p, h1, h2{
+	color: #CCC;
+}
+#mail{
+	width: 100%;
+	height: 750px;
+	background-image: url(../Images/navPattern.jpg);
+	float: left;
+}
+#mailText{
+	width: 100%;
+	text-align: center;
+	color: #CCC;
+	margin: 100px 0px;
+	font-size: 40px;
+}
+#mailInput{
+	width: 1000px;
+	margin: 50px 100px;
+}
+
+.info{
+	border: 0px;
+	border-bottom: 1px solid #CCC;
+	border-collapse: collapse;
+	background-color: transparent;
+	color: #CCC;
+	width: 47%;
+	float: left;
+	margin: 10px;
+	line-height: 300%;
+}
+#comment{
+	border: 0px;
+	border-bottom: 1px solid #CCC;
+	background-color: transparent;
+	color: #CCC;
+	width: 96%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 100px;
+	line-height: 300%;
+	font-weight: 100;
+}
+#submit{
+	width: 120px;
+	height: 60px;
+	border: 1px solid #CCC;
+	background-color: transparent;
+	color: #CCC;
+	border-radius: 30px;
+	margin: 100px 400px 50px 455px;
+}
+#map{
+	width: 1200px;
+	height: 750px;
+	float: left;
+}
+#footer{
+	width: 1200px;
+	height: 150px;
+	float: left;
+	background-color: #0f1418;
+}
+#copyright{
+	width: 30%;
+	float: left;
+	color: #2E2E2E;
+	margin-top: 70px;
+	margin-left: 30px;
+	text-align: center;
+}
+#question{
+	width: 30%;
+	float: left;
+	color: #CCC;
+	margin-top: 70px;
+	text-align: center;
+}
+#socialMedia{
+	width: 30%;
+	float: left;
+	color: #CCC;
+	margin-top: 50px;
+	text-align: center;
+}
+#facebook a{
+	font-size: 0;
+	background-image: url(../Images/facebook.png);
+}
+
+@media only screen and (min-width:501px) and (max-width:800px) {
+	body{
+		max-width: 800px;
+	}
+	#holder{
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	#menu{
+		height: auto;
+	}
+	#menu ul{
+		margin: 0;
+	}
+	#menu ul li{
+		float: none;
+		text-align: center;
+	}
+	#mainMovie{
+		max-width: 600px;
+		max-height: 338px;
+		background-image: url(../Images/mainMovie_medium.jpg);
+	}
+	#genre{
+		max-width: 600px;
+		height: auto;
+		margin: 0 auto;
+	}
+	#moreMovies{
+	width: 100%;
+	float: left;
+	background-color: #0f1418;
+	padding-bottom: 5px;
+	}
+	.moremovies{
+	width: 600px;
+	margin: 0;
+	}
+	.movie{
+	float: left;
+	margin: 35px 42px;
+	text-align: center;
+	}
+	#viewmore{
+	margin-left: 32%;
+	}
+	input[type=checkbox]{
+	margin: 10px 20px 20px 50px;
+	}
+	#genreNav{
+	margin: 0px 80px 50px 80px;
+	}
+	#helper{
+	margin-left: 30%
+}
+	#map{
+		display: none;
+
+	}
+	#testImg{
+		margin: 5% 28%;
+	}
+	#mail{
+	width: 100%;
+	height: auto;
+	background-image: url(../Images/navPattern.jpg);
+	float: left;
+}
+#mailText{
+	width: 100%;
+	text-align: center;
+	color: #CCC;
+	margin: 100px 0px;
+	font-size: 40px;
+}
+#mailInput{
+	width: 100%;
+	margin-left: 40px;
+}
+#comment{
+	width: 80%;
+}
+.info{
+	width: 80%;
+}
+#submit{
+	width: 120px;
+	height: 60px;
+	border: 1px solid #CCC;
+	background-color: transparent;
+	color: #CCC;
+	border-radius: 30px;
+	margin: 50px 200px 25px 200px;
+}
+#footer{
+	width: 600px;
+	height: auto;
+}
+#copyright, #socialMedia, #question{
+	float: none;
+	margin-left: 35%;
+}
+}
